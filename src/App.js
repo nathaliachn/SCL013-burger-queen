@@ -1,15 +1,11 @@
 import React from 'react';
-import './App.css';
-import Auth  from './Auth';
+//import './App.css';
+//import Auth  from './pages/Auth';
 
 function App() {
-  const firebase = useFirebaseApp();
-  
-  console.log(firebase);
-  return (
+    return (
     <div className="App">
-      <p>usuario:</p>
-      <Auth/>
+   
     </div>
   );
 }
