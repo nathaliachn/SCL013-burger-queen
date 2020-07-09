@@ -1,12 +1,11 @@
 import React from 'react';
 //import './App.css';
-import Auth  from './Auth';
+//import Auth  from './pages/Auth';
 
 function App() {
-  return (
+    return (
     <div className="App">
-      <p>usuario:</p>
-      <Auth/>
+   
     </div>
   );
 }

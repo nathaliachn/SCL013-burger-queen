@@ -1,12 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import Button from '../componentes/button'
 
 
 export const SelectionPage = () => {
 return (
     <div id= 'selection'>
     <div>
-    <button type="button" class="btn btn-primary btn-lg btn-block" id='garzon'> Garzon </button>
-    <button type="button" class="btn btn-primary btn-lg btn-block" id="cocinero"> Cocinero </button>
+    <section>
+     <Link to= '/login'>
+        <Button type="button" title='Garzón' class="btn btn-primary btn-lg btn-block"></Button>
+         </Link>
+    </section>
+    <section>
+     <Link to= '/login'>
+        <Button type="button" title='Cocina' class="btn btn-primary btn-lg btn-block"></Button>
+         </Link>
+    </section>
     </div>
     </div>
 )
