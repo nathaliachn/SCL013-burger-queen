@@ -1,11 +1,11 @@
 import React from 'react'
 import { Fragment } from 'react';
 
-export const MenuCocinero = () => {
+export const VistasCocinero = () => {
 return (
     <Fragment>
-    <div id= 'menu'>
-    <h1> Página del cocinero</h1>
+    <div id= 'containerCocinero'>
+    <h1> Vista cocinero</h1>
     </div>
     </Fragment>
 )

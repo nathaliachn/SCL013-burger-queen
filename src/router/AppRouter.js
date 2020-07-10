@@ -5,8 +5,8 @@ import { ContactPage } from '../pages/ContactPage';
 import { SelectionPage } from '../pages/SelectionPage';
 import { Registro } from '../pages/Auth.jsx'
 import { Login } from '../pages/LoginPage';
-import { MenuGarzon } from '../pages/MenuGarzon';
-import { MenuCocinero } from '../pages/MenuCocinero';
+import { VistasMesero } from '../pages/VistaMesero';
+import { VistasCocinero } from '../pages/VistaCocinero';
 
 export const AppRouter = () => {
   return (
@@ -24,8 +24,8 @@ export const AppRouter = () => {
           <Route path="/selection" component= { SelectionPage } />
           <Route path="/register" component= { Registro } />
           <Route path="/login" component= { Login } />
-          <Route path="/garzon" component= { MenuGarzon } />
-          <Route path="/cocinero" component= { MenuCocinero } />
+          <Route path="/mesero" component= { VistasMesero } />
+          <Route path="/cocinero" component= { VistasCocinero } />
           <Route path="/" component= { HomePage } />
                             
         </Switch>

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import '../img/styles.css';
 import data from "../data.json";
 
-export default function Pedidos() {
-  const [menuType, setMenuType] = useState("desayunos");
+export default function Opciones() {
+  const [menuType, setMenuType] = useState("Sweets");
   const [selectedItems, setSelectedItems] = useState([]);
   const handleItemClick = item => {
     // Incluye la logica para saber cuando el elemento

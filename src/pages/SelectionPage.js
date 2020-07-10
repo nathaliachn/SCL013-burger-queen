@@ -9,7 +9,7 @@ return (
     <div>
     <section>
      <Link to= '/login'>
-        <Button type="button" title='Garzón' class="btn btn-primary btn-lg btn-block"></Button>
+        <Button type="button" title='Mesero' class="btn btn-primary btn-lg btn-block"></Button>
          </Link>
     </section>
     <section>
