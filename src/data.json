@@ -3,13 +3,13 @@
         {
             "id": "cookiesCake",
             "producto": "Torta de cookies con frutilla",
-            "precio": 3000,
-            "img": "https://media-public.canva.com/zIT5A/MADQ1bzIT5A/2/tl.png"
+            "precio": 3000
         },
         {
             "id": "mochaCake",
             "producto": "Torta de moca",
-            "precio": 3000
+            "precio": 3000,
+            "img": "http://imgfz.com/i/vduKbOQ.png"
         },
         {
             "id": "caramelCake",

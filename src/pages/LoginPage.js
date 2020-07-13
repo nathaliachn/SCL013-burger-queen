@@ -18,7 +18,7 @@ export const Login = (props) => {
     setEmail('')
     setPassword('')
     setError(null)
-    props.history.push('/garzon')
+    props.history.push('/mesero')
         }
         catch (error) {
             console.log(error)
