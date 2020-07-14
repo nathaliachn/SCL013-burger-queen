@@ -3,7 +3,8 @@
         {
             "id": "cookiesCake",
             "producto": "Torta de cookies con frutilla",
-            "precio": 3000
+            "precio": 3000,
+            "img": "http://imgfz.com/i/pEwlu41.png"
         },
         {
             "id": "mochaCake",
@@ -14,115 +15,137 @@
         {
             "id": "caramelCake",
             "producto": "Torta de manjar con chococlate",
-            "precio": 3000
+            "precio": 3000,
+            "img": "http://imgfz.com/i/h4r5RoD.png"
         },
         {
             "id": "cherryCake",
             "producto": "Torta de cereza con chocolate",
-            "precio": 3000
+            "precio": 3000,
+            "img": "http://imgfz.com/i/IxfoYn1.png"
         },
         {
           "id": "orangeCake",
             "producto": "Torta de naranja con chocolate",
-            "precio": 3000
+            "precio": 3000,
+            "img": " http://imgfz.com/i/fEMJ0NR.png"
         },
 
 {
             "id": "bluberryCake",
             "producto": "Torta de arandanos",
-            "precio": 3000
+            "precio": 3000,
+            "img": "http://imgfz.com/i/GoHt78Z.png"
         },
 {
             "id": "forestBerryCupcake",
             "producto": "Cupcake de frutos del bosque",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/Rmt9Oxb.png"
         },
 {
             "id": "cramberryCupcake",
             "producto": "Cupcake de frambuesa",
-            "precio": 2000
+            "precio": 2000,
+            "img": " http://imgfz.com/i/o8CgPxk.png"
         },
 {
             "id": "caramelCupcake",
             "producto": "Cupcake de manjar",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/mBz8VaK.png"
         },
   {
             "id":"whiteChocolateCupcake",
             "producto": "Cupcake de chocolate blanco",
-            "precio": 2000
+            "precio": 2000,
+            "img": " http://imgfz.com/i/fUW456M.png"
         },
 {
             "id": "orangeCupcake",
             "producto": "Cupcake de naranja",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/P1BMWcr.png"
         },
 {
             "id": "chocolateCupcake",
             "producto": "Cupcake de chocolate",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/QjdHwuI.png"
         }
     ],
     "To drink": [
         {
             "id": "water",
             "producto": "Agua en botellada",
-            "precio": 1000
+            "precio": 1000,
+            "img": "http://imgfz.com/i/A2453oM.png"
         },
         {
             "id": "orangeJuice",
             "producto": "Zumo de naranja",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/vlN7C6X.png"
         },
         {
-            "id": "uvaJuice",
+            "id": "grapeJuice",
             "producto": "Jugo de uva",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/S37hbjq.png"
         },
         {
             "id": "mangoJuice",
             "producto": "Jugo de mango",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/9Z4jgDV.png"
         },
         {
             "id": "chocolateMilkshake",
             "producto": "Milkshake de chocolate",
-            "precio": 2500
+            "precio": 2500,
+            "img": "http://imgfz.com/i/BGMw6RW.png"
         },
         {
             "id": "strawberrymilkshake",
             "producto": "Milkshake de frutilla",
-            "precio": 2500
+            "precio": 2500,
+            "img": "http://imgfz.com/i/4tLiDqE.png"
         },
         {
             "id": "cappuccino",
             "producto": "Capuchino",
-            "precio": 2500
+            "precio": 2500,
+            "img": "http://imgfz.com/i/MK2xszu.png"
         },
         {
             "id": "caramelLatte",
             "producto": "Latte de caramelo",
-            "precio": 2500
+            "precio": 2500,
+            "img": "http://imgfz.com/i/MK2xszu.png"
         },
         {
             "id": "hotcocoa",
             "producto": "chocolateCaliente",
-            "precio": 2500
+            "precio": 2500,
+            "img": "http://imgfz.com/i/hujXOEm.png"
         },
         {
             "id": "americanCoffee",
             "producto": "Café americano",
-            "precio": 2000
+            "precio": 2000,
+            "img": "http://imgfz.com/i/moUlO4y.png"
         },
         {
             "id": "chamomileTea",
             "producto": "Té de manzanilla",
-            "precio": 1500
+            "precio": 1500,
+            "img": "http://imgfz.com/i/ZWobf5S.png"
         },
         {
             "id": "chaiTea",
             "producto": "Té chai",
-            "precio": 2500
+            "precio": 2500,
+            "img": "http://imgfz.com/i/p6MKIch.png"
         }
     ]
 }
