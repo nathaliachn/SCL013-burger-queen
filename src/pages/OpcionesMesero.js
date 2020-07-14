@@ -30,7 +30,7 @@ export default function Opciones() {
         <br />
         {data[menuType].map(item => (
           <div className="App-menu__item" onClick={() => handleItemClick(item)}>
-            {item.producto} <span>${item.precio}</span>
+            {item.producto} <span>${item.precio}</span><img src={item.img} alt={item.producto}/>
           </div>
         ))}
       </div>

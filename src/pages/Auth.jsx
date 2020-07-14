@@ -79,7 +79,6 @@ export const Registro = (props) => {
                 <label htmlFor="password">Contraseña</label>
                 <input type="password" className="form-control mb-2" id="password" onChange={ (ev)=>setPassword(ev.target.value) } />
                 <button className="btn btn-lg btn-dark btn-block" onClick={ submit }>Registrar</button>
-              
                 </form>
                 </div>
                 </div>
