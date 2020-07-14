@@ -61,9 +61,9 @@ export const Registro = (props) => {
      
     }
     return(
-        <div className="fondo">
+        <div className="fondo2">
            <div className="row justify-content-center">
-          <div className="col-12 col-sm-8 col-md-6 col-xl-4">
+          <div className="col-12 col-sm-8 col-md-6 col-xl-4" id="contenedorLogin">
                     <form onSubmit={procesarDatos}>
                     {
                         error && (
@@ -73,7 +73,7 @@ export const Registro = (props) => {
                         ) 
                     }
           
-                <h1 className="text-center">¡Regístrate!</h1>
+                <h1>¡Regístrate!</h1>
                 <label htmlFor="email">Correo electronico</label>
                 <input type="email" className="form-control mb-2" id="email" onChange={ (ev)=>setEmail(ev.target.value) } />
                 <label htmlFor="password">Contraseña</label>

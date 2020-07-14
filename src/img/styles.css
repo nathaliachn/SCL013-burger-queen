@@ -1,0 +1,50 @@
+App {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .App-menu__type {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: #eee;
+  }
+  
+  .App-menu__type:hover {
+    background-color: yellow;
+  }
+  
+  .App-menu__item {
+    display: inline-block;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #00ffa1;
+    cursor: pointer;
+  }
+  
+  .App-menu__item span {
+    display: block;
+  }
+  
+  .App-list {
+    padding: 10px;
+    background-color: gray;
+  }
+  .App-list__total {
+    padding: 6px 0;
+  }
+  .App-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .App-list__button {
+    background-color: yellow;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 4px 0;
+    border: 0;
+  }
+  
