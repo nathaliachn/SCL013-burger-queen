@@ -7,10 +7,11 @@ import { Fragment } from 'react';
 export const HomePage = () => {
   return (
     <Fragment>
-      <div className='fondo'>
-        <p id='identificador'>The cake house</p>
+      <div id='startBackground'>
+        <h1 id='startTittle'>
+          The cake <br></br>house</h1>
         <Link to='/selection'>
-          <button>Comenzar</button>
+          <button id ='startButton'>Comenzar</button>
         </Link>
       </div>
     </Fragment >

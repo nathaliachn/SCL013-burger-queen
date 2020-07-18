@@ -1,23 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Button from '../componentes/button'
-
+// import Button from '../componentes/button';
+import '../img/Inicio.css';
 
 export const SelectionPage = () => {
 return (
     <div id= 'selection'>
-    <div>
-    <section>
+    <section id='waiterSection'>
      <Link to= '/login'>
-        <Button type="button" title='Mesero' class="btn btn-primary btn-lg btn-block"></Button>
+        <button id='waiterButton'type="button" title='Mesero' class="btn btn-primary btn-lg btn-block"></button>
          </Link>
     </section>
-    <section>
+    <section id='chefSection'>
      <Link to= '/login'>
-        <Button type="button" title='Cocina' class="btn btn-primary btn-lg btn-block"></Button>
+        <button  id='chefButton' type="button" title='Cocina' class="btn btn-primary btn-lg btn-block"></button>
          </Link>
     </section>
-    </div>
     </div>
 )
 }

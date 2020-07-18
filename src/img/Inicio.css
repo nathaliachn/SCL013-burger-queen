@@ -1,65 +1,129 @@
-.fondo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/theCakeHouse.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-self: auto;
-    width: 72%;
-    height: 100vh;
-    background-color: whitesmoke;
-    background-position: 50% 50%;
-    /*margin: 0;
+
+*{
+    margin: 0;
     padding: 0;
-    position: relative;
+ }
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                          PAGINA DE INICIO
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#startBackground {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/TheCakeHouse.jpg);
-    width: 100%;
-    height: 100%;*/
+    align-self: auto;
+    
 }
+        #startTittle{
+            display: flex;
+            flex-direction: column;
+            height:11px;
+            text-align: center;
+            align-items: flex-start;
+            margin-top: 13%;
+            margin-left: 1%;
+            font-family: 'Pacifico', cursive;
+            font-size: 700%;
+            color: #F89992;
+        }
+        #startButton{
+            position: absolute;
+            font-family: 'Actor', sans-serif;
+            font-size: 30px;
+            font-weight: bolder;
+            letter-spacing: 5px;
+            text-align: center;
+            color:white;
+            width: 370px;
+            height: 75px;
+            border: 8px;
+            background: #9AE7E8;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 498px;
+            margin-left: -378px;
 
-#inicio{
-    width: 100px;
-    height: 40px;
-    background: aliceblue;
-    border: 1px solid #000000;
-    top: 30%;
-}
+        }
 
-#identificador{
-    display: flex;
-    flex-direction: column;
-    height: 85px;
-    align-items: flex-start;
-    margin-top: -55%;
-    font-family: Arial,;
-    font-size: 281%;
-    margin-left: -1%;
-    margin-right: -9%;
-    color: #F89992;
-}
-
-#contenedorLogin {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 400px;
-    background: #09798d;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-}
+        #contenedorLogin {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 400px;
+            background: #09798d;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+        }
+    
+        
 
 #selection{
-    background-color:#FBE29B;
     width: 100%;
     height: 100%;
     position: absolute;
 }
+    #waiterSection{
+        background-color: #F89992;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        overflow: hidden;
+
+    }
+    #waiterButton{
+        position: relative;
+        font-family: 'Actor', sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        text-align: center;
+        color:white;
+        width: 370px;
+        height: 65px;
+        border: 3px;
+        background: #9AE7E8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 280px;
+        margin-left: 890px;
+    
+    }
+    #chefSection{
+        background-color: #FBEB6D;
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        right: 10px;
+        overflow: hidden;
+
+
+    }
+    #chefButton{
+        position: relative;
+        font-family: 'Actor', sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        text-align: center;
+        color:white;
+        width: 370px;
+        height: 65px;
+        border: 3px;
+        background: #9AE7E8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 280px;
+        margin-left: 890px;
+    
+    }
+
 
 #garzon{
     color: #000;
