@@ -9,7 +9,7 @@ export const HomePage = () => {
     <Fragment>
       <div className='fondo'>
         <p id='identificador'>The cake house</p>
-        <Link to='/selection'>
+        <Link to='/login'>
           <button>Comenzar</button>
         </Link>
       </div>
