@@ -11,10 +11,9 @@ import { VistasCocinero } from '../pages/VistaCocinero';
 export const AppRouter = () => {
   return (
     <Router>
-      <div className='btn-group'>
-        <Link to="/register" className='btn btn-dark'>Registrate</Link>
-        <Link to="/login" className='btn btn-dark'>Inicia Sesión</Link>
-        <Link to="/contact" className='btn btn-dark'>Nosotros</Link>
+      <div className='btnGroup'>
+        <Link to="/register" className='btnR'>Registrate</Link>
+        <Link to="/login" className='btnI'>Inicia sesión</Link>
       </div>
       <Switch>
 

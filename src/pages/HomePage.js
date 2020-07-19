@@ -1,7 +1,6 @@
 import React from 'react';
 import '../img/Inicio.css';
 import { Link } from 'react-router-dom';
-//import Button from '../componentes/button';
 import { Fragment } from 'react';
 
 export const HomePage = () => {
