@@ -59,14 +59,11 @@ export const Login = (props) => {
     }
 
 return (
-    <div className='fondo2'>
-    <di id="">
-
-    </di>
+    <div className='loginContainer'>
     <div className="mt-5">
-    <div className= "row justify-content-center" >
-   <div className="col-12 col-sm-8 col-md-6 col-xl-4" id="contenedorLogin">
-             <form  onSubmit={procesarDatos}>
+    <div id='fotoSection'></div>
+    <div id="formSection">
+             <form onSubmit={procesarDatos}>
              {
                  error && (
                      <div className="alert alert-danger">
@@ -74,18 +71,16 @@ return (
                      </div>
                  ) 
              }
-   
-         <h1>¡Inicia tu Sesión!</h1>
-         <label htmlFor="email">Correo electronico</label>
-         <input type="email" className="form-control mb-2" id="email" onChange={ (ev)=>setEmail(ev.target.value) } />
-         <label htmlFor="password">Contraseña</label>
-         <input type="password" className="form-control mb-2" id="password" onChange={ (ev)=>setPassword(ev.target.value) } />
-         <button className="btn btn-lg btn-dark btn-block" onClick={ login }>Iniciar Sesión</button>
-       
+         <h1 id='loginTitle'>Inicio de Sesión</h1>
+         <label htmlFor="email"id='emailLabel' >Correo electronico</label>
+         <input type="email" id="emailImput" onChange={ (ev)=>setEmail(ev.target.value) } />
+         <label id='passwordLabel' htmlFor="password">Contraseña</label>
+         <input type="password" id="passwordImput" onChange={ (ev)=>setPassword(ev.target.value) } />
+         <button id='loginButton' onClick={ login }>Iniciar Sesión</button>
+     
          </form>
          </div>
          </div>
- </div> 
  </div>
 )
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'firebase/auth';
 import { useFirebaseApp } from 'reactfire';
 import { withRouter } from "react-router-dom";
+import '../img/Login.css'
 
 
 export const Registro = (props) => {
@@ -61,9 +62,10 @@ export const Registro = (props) => {
      
     }
     return(
-        <div className="fondo2">
-           <div className="row justify-content-center">
-          <div className="col-12 col-sm-8 col-md-6 col-xl-4" id="contenedorLogin">
+            <div className='registerontainer'>
+            <div className="mt-5"></div>
+            <div id='fotoRegisterSection'></div>
+            <div id="formRegisterSection">
                     <form onSubmit={procesarDatos}>
                     {
                         error && (
@@ -73,16 +75,15 @@ export const Registro = (props) => {
                         ) 
                     }
           
-                <h1>¡Regístrate!</h1>
-                <label htmlFor="email">Correo electronico</label>
-                <input type="email" className="form-control mb-2" id="email" onChange={ (ev)=>setEmail(ev.target.value) } />
-                <label htmlFor="password">Contraseña</label>
-                <input type="password" className="form-control mb-2" id="password" onChange={ (ev)=>setPassword(ev.target.value) } />
-                <button className="btn btn-lg btn-dark btn-block" onClick={ submit }>Registrar</button>
+                <h1 id='registerTitle'>¡Regístrate!</h1>
+                <label id='emailRegisterLabel'htmlFor="email">Correo electronico</label>
+                <input id='emailRegisterImput'type="email" onChange={ (ev)=>setEmail(ev.target.value) } />
+                <label id='passwordRegisterLabel' htmlFor="password">Contraseña</label>
+                <input id='passwordRegisterImput'type="password"  onChange={ (ev)=>setPassword(ev.target.value) } />
+                <button id='registerButton'onClick={ submit }>Registrar</button>
                 </form>
                 </div>
                 </div>
-        </div>
     )
 }
 export default withRouter(Registro)

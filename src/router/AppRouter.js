@@ -12,8 +12,7 @@ export const AppRouter = () => {
   return (
     <Router>
       <div className='btnGroup'>
-        <Link to="/register" className='btnR'>Registrate</Link>
-        <Link to="/login" className='btnI'>Inicia sesión</Link>
+          <Link to="/register" className='btnR'>Registrate</Link> 
       </div>
       <Switch>
 

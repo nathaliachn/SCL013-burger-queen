@@ -1,17 +1,201 @@
-#contenedorLogin {
-    background:#fee7e7;;
-    border: 1px solid #000000;
-    margin-top: 2%;
-   }
+* {
+  margin: 0;
+  padding: 0;
+}
+ /* +++++++++++++++++++++++++++++++++    L O G I N   P A G E  +++++++++++++++++++++++++++++++ */ 
+ #formSection{
+  background-color: #ffffff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  margin-top: 15%;
 
-.fondo2 {
-  text-align: center;
+
+   }  #loginTitle{
+      font-size: 50px;
+      background: linear-gradient(#9AE7E8,#36ebe8, #3077ec);
+      -webkit-background-clip: text;
+      color: transparent; 
+      margin-left: 20%;
+       
+  }
+
+      #emailLabel{
+        color: #3077ec;
+        display: block;
+        font-size: 30px;
+        height: 16px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 19%;
+      }
+
+      #emailImput{
+        background: #ffffff;
+        border: 0;
+        color: #3077ec;
+        font-size: 20px;
+        height: 30px;
+        line-height: 25px;
+        box-sizing: border-box;
+        border-bottom: 5px solid #36ebe8;
+        outline: none !important;
+        width: 65%;
+        margin-left: 20%;
+      }
+      #passwordLabel{
+        color: #3077ec;
+        display: block;
+        font-size: 30px;
+        height: 16px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 19%;
+      }
+      #passwordImput{
+        background: #ffffff;
+        border: 0;
+        color: #3077ec;
+        font-size: 20px;
+        height: 30px;
+        line-height: 25px;
+        box-sizing: border-box;
+        border-bottom: 5px solid #36ebe8;
+        outline: none !important;
+        width: 65%;
+        margin-left: 20%;
+      }
+      #loginButton{
+        display: block;
+        margin-left: 20%;
+        margin-top: 17%;
+        font-family: 'Actor',sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        text-align: center;
+        color:white;
+        width: 420px;
+        height: 75px;
+        border: 8px;
+        background: #9AE7E8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        cursor: pointer;
+                
+      }
+
+#fotoSection{
   background-image: url(./fondoRegistro.jpg);
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 60px;
-  height: 60px;
+}
+ /* +++++++++++++++++++++++++++++++++    S I N G   I N   P A G E  +++++++++++++++++++++++++++++++ */ 
+ 
+ #formRegisterSection{
+  background-color: #ffffff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  margin-top: 10%;
+
+
+   }  #registerTitle{
+      font-size: 50px;
+      background: linear-gradient(#9AE7E8,#36ebe8, #3077ec);
+      -webkit-background-clip: text;
+      color: transparent; 
+      margin-left: 28%;
+       
+  }
+
+      #emailRegisterLabel{
+        color: #3077ec;
+        display: block;
+        font-size: 30px;
+        height: 16px;
+        margin-top: 10%;
+        margin-bottom: 80px;
+        margin-left: 19%;
+      }
+
+      #emailRegisterImput{
+        background: #ffffff;
+        border: 0;
+        color: #3077ec;
+        font-size: 20px;
+        height: 30px;
+        line-height: 25px;
+        box-sizing: border-box;
+        border-bottom: 5px solid #36ebe8;
+        outline: none !important;
+        width: 65%;
+        margin-left: 20%;
+      }
+      #passwordRegisterLabel{
+        color: #3077ec;
+        display: block;
+        font-size: 30px;
+        height: 16px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 19%;
+      }
+      #passwordRegisterImput{
+        background: #ffffff;
+        border: 0;
+        color: #3077ec;
+        font-size: 20px;
+        height: 30px;
+        line-height: 25px;
+        box-sizing: border-box;
+        border-bottom: 5px solid #36ebe8;
+        outline: none !important;
+        width: 65%;
+        margin-left: 20%;
+      }
+      #registerButton{
+        display: block;
+        margin-left: 20%;
+        margin-top: 17%;
+        font-family: 'Actor',sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        text-align: center;
+        color:white;
+        width: 420px;
+        height: 75px;
+        border: 8px;
+        background: #9AE7E8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        cursor: pointer;
+                
+      }
+
+#fotoRegisterSection{
+  background-image: url(./fondoRegistro.jpg);
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

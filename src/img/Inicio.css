@@ -25,19 +25,20 @@
             padding: 7px 0px 7px 0px;
         }
 
-        .btnI{color: #F89992;
-        font-size: 200%;
-        font-weight: bold;
-        margin-right: -83px;
-        margin-left: 64px;
-        }    
-
-        .btnR{
+            /* .btnI{
             color: #F89992;
             font-size: 200%;
             font-weight: bold;
-            
-        }
+            margin-right: -83px;
+            margin-left: 64px;
+            }     */
+
+            .btnR{
+            color: #F89992;
+            font-size: 200%;
+            font-weight: bold;
+                
+            }
     #startTittle{
         display: flex;
         flex-direction: column;
@@ -53,21 +54,22 @@
     }
     #startButton{
         position: absolute;
-        font-family: 'Actor', sans-serif;
+        font-family: 'Actor',
+        sans-serif;
         font-size: 30px;
         font-weight: bolder;
-                letter-spacing: 5px;
-                text-align: center;
-                color:white;
-                width: 370px;
-                height: 75px;
-                border: 8px;
-                background: #9AE7E8;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border-radius: 6px;
-                cursor: pointer;
-                margin-top: 550px;
-                margin-left: -378px;
+        letter-spacing: 5px;
+        text-align: center;
+        color:white;
+        width: 370px;
+        height: 75px;
+        border: 8px;
+        background: #9AE7E8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 550px;
+        margin-left: -378px;
                 
             }
         
@@ -83,9 +85,9 @@
             box-sizing: border-box;
         }
         
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                             SELECTION PAGE 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
             
         
         #selection{
