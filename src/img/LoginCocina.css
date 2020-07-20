@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+   /* +++++++++++++++++++++++++++++++++    L O G I N   K I T C H E N    P A G E  ++++++++++++++++++ */ 
+   #formKitchenSection{
+    background-color: #ffffff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 13%;
+  
+  
+     }  #loginKitchenTitle{
+        font-size: 50px;
+        text-align: center;
+        background: linear-gradient( #BBE2E9, #9AE7E8,#36ebe8, #3077ec);
+        -webkit-background-clip: text;
+        color: transparent; 
+        margin-left: 0%;
+         
+    }
+  
+        #emailKitchenLabel{
+          color: #3077ec;
+          display: block;
+          font-size: 30px;
+          height: 16px;
+          margin-top: 50px;
+          margin-bottom: 80px;
+          margin-left: 19%;
+        }
+  
+        #emailKitchenImput{
+          background: #ffffff;
+          border: 0;
+          color: #3077ec;
+          font-size: 20px;
+          height: 30px;
+          line-height: 25px;
+          box-sizing: border-box;
+          border-bottom: 5px solid #36ebe8;
+          outline: none !important;
+          width: 65%;
+          margin-left: 20%;
+        }
+        #passwordKitchenLabel{
+          color: #3077ec;
+          display: block;
+          font-size: 30px;
+          height: 16px;
+          margin-top: 50px;
+          margin-bottom: 80px;
+          margin-left: 19%;
+        }
+        #passwordKitchenImput{
+          background: #ffffff;
+          border: 0;
+          color: #3077ec;
+          font-size: 20px;
+          height: 30px;
+          line-height: 25px;
+          box-sizing: border-box;
+          border-bottom: 5px solid #36ebe8;
+          outline: none !important;
+          width: 65%;
+          margin-left: 20%;
+        }
+        #loginKitchenButton{
+          display: block;
+          margin-left: 20%;
+          margin-top: 17%;
+          font-family: 'Actor',sans-serif;
+          font-size: 30px;
+          font-weight: bolder;
+          letter-spacing: 5px;
+          text-align: center;
+          color:white;
+          width: 420px;
+          height: 75px;
+          border: 8px;
+          background: #9AE7E8;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 30px;
+          cursor: pointer;
+                  
+        }
+  
+  #fotoKitchenSection{
+    background-image: url(./fondoRegistro.jpg);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

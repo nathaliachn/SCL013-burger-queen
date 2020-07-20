@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 import { useFirebaseApp } from 'reactfire';
 import 'firebase/auth';
 import { withRouter } from "react-router-dom";
-import '../img/Login.css'
+import '../img/LoginCocina.css'
 
-export const Login = (props) => {
+export const LoginC = (props) => {
     const [email, setEmail] = useState('');
     const [password,setPassword] = useState('');  
     const [error, setError] = useState(null);
     const firebase = useFirebaseApp();
    
-    const login = async ()=>{
+    const loginC = async ()=>{
         try{
          const logeado =   await firebase.auth().signInWithEmailAndPassword(email,password);
          console.log (logeado.user)
     setEmail('')
     setPassword('')
     setError(null)
-    props.history.push('/mesero')
+    props.history.push('/cocinero')
         }
         catch (error) {
             console.log(error)
@@ -58,10 +58,10 @@ export const Login = (props) => {
     }
 
 return (
-    <div className='loginContainer'>
+    <div className='loginKitchenContainer'>
     <div className="mt-5">
-    <div id='fotoSection'></div>
-    <div id="formSection">
+    <div id='fotoKitchenSection'></div>
+    <div id="formKitchenSection">
              <form onSubmit={procesarDatos}>
              {
                  error && (
@@ -70,12 +70,12 @@ return (
                      </div>
                  ) 
              }
-         <h1 id='loginTitle'>Inicio de sesión <br></br>mesero</h1>
-         <label htmlFor="email"id='emailLabel' >Correo electronico</label>
-         <input type="email" id="emailImput" onChange={ (ev)=>setEmail(ev.target.value) } />
-         <label id='passwordLabel' htmlFor="password">Contraseña</label>
-         <input type="password" id="passwordImput" onChange={ (ev)=>setPassword(ev.target.value) } />
-         <button id='loginButton' onClick={ login }>Iniciar Sesión</button>
+         <h1 id='loginKitchenTitle'>Inicio de sesión <br></br> cocina</h1>
+         <label htmlFor="email"id='emailKitchenLabel' >Correo electronico</label>
+         <input type="email" id="emailKitchenImput" onChange={ (ev)=>setEmail(ev.target.value) } />
+         <label id='passwordKitchenLabel' htmlFor="password">Contraseña</label>
+         <input type="password" id="passwordKitchenImput" onChange={ (ev)=>setPassword(ev.target.value) } />
+         <button id='loginKitchenButton' onClick={ loginC }>Iniciar Sesión</button>
      
          </form>
          </div>
@@ -83,4 +83,4 @@ return (
  </div>
 )
 }
-export default withRouter(Login)
+export default withRouter(LoginC)

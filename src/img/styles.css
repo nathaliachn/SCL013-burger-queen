@@ -1,54 +1,101 @@
 App {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-  
-  .App-menu__type {
-    display: inline-block;
-    border-radius: 5px;
-    padding: 8px;
-    text-transform: uppercase;
-    background-color: #eee;
-  }
-  
-  .App-menu__type:hover {
-    background-color: yellow;
-  }
-  
-  .App-menu__item {
-    display: inline-block;
-    margin: 4px;
-    padding: 8px;
-    border-radius: 5px;
-    background-color: #00ffa1;
-    cursor: pointer;
-  }
-  
-  .App-menu__item span {
-    display: block;
-  }
-  
-  .App-list {
-    padding: 10px;
-    background-color: gray;
-  }
-  .App-list__total {
-    padding: 6px 0;
-  }
-  .App-list__item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .App-list__button {
-    background-color: yellow;
-    padding: 12px;
-    border-radius: 5px;
-    margin: 4px 0;
-    border: 0;
-  }
-.imagen{
-  width: 30px;
-  height: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  width: auto;
+  height: auto;
+}  .App-menu__type {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px;
+  text-transform: uppercase;
+  background-color: #eee;
+}  .App-menu__item {
+  display: inline-block;
+  margin: 4px;
+  padding: 10px;
+  border-radius: 11px;
+  background-color: #F89992;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-left: 1%;
+  color: white;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 22px;
+  text-align: center;  
+}  .App-menu__item span {
+  display: block;
+}  .App-list {
+  padding: 10px;
+  background:#E5E5E5;
 }
-  
+.App-list__total {
+  padding: 6px 0;
+  font-size: 25px;
+}
+.App-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.App-list__button:hover{
+  background-color: #9AE7E8;
+}
+.App-list__button {
+  font-family: 'Actor', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  width: 178px;
+  height: 41px;
+  border: 3px;
+  background: #F89992;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1%;
+}  .imagenPedido{
+  width: 220px;
+  height: 190px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.buttonSelection{
+  font-family: 'Actor', sans-serif;
+  font-size: 29px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+  width: 370px;
+  height: 65px;
+  border: 3px;
+  background: #F89992;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.buttonSelection:hover {
+  background-color: #9AE7E8;
+}
+.buttonDelete{
+  font-family: 'Actor', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  width: 113px;
+  height: 41px;
+  border: 3px;
+  background: #F89992;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1%;
+}  .App-menu{
+  display: inline;
+}

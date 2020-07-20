@@ -7,6 +7,7 @@ import { Registro } from '../pages/Auth.jsx'
 import { Login } from '../pages/LoginPage';
 import { VistasMesero } from '../pages/VistaMesero';
 import { VistasCocinero } from '../pages/VistaCocinero';
+import { LoginC } from '../pages/LoginCocina';
 
 export const AppRouter = () => {
   return (
@@ -20,6 +21,7 @@ export const AppRouter = () => {
         <Route path="/selection" component={SelectionPage} />
         <Route path="/register" component={Registro} />
         <Route path="/login" component={Login} />
+        <Route path="/loginCocina" component={LoginC} />
         <Route path="/mesero" component={VistasMesero} />
         <Route path="/cocinero" component={VistasCocinero} />
         <Route path="/" component={HomePage} />

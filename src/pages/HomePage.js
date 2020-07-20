@@ -13,7 +13,7 @@ export const HomePage = () => {
         </div>
         <h1 id='startTittle'>
           The cake <br></br>house</h1>
-        <Link to='/login'>
+        <Link to='/selection'>
           <button id='startButton'>Comenzar</button>
         </Link>
       </div>

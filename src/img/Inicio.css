@@ -106,9 +106,6 @@
             overflow: hidden;
             
         }
-        /*#waiterPicture{
-            background-image:url(./fotomesera.jpg);
-        }*/
         #waiterButton{
         font-family: 'Actor', sans-serif;
         font-size: 30px;
@@ -116,15 +113,15 @@
         letter-spacing: 5px;
         text-align: center;
         color:white;
-        width: 370px;
+        width: 405px;
         height: 65px;
         border: 3px;
         background: #9AE7E8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 6px;
+        border-radius: 20px;
         cursor: pointer;
-        margin-top: 1%;
-        margin-left: 30%;
+        margin-top: 15%;
+        margin-left: 20%;
     
     }
     #chefSection{
@@ -144,15 +141,15 @@
         letter-spacing: 5px;
         text-align: center;
         color:white;
-        width: 370px;
+        width: 405px;
         height: 65px;
         border: 3px;
         background: #9AE7E8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 6px;
+        border-radius: 20px;
         cursor: pointer;
-        margin-top: 1%;
-        margin-left: 32%;
+        margin-top: 15%;
+        margin-left: 20%;
     
     }
 
@@ -209,9 +206,9 @@
 }
 
 .imagenSelection{
-  width: 466px;
-  height: 444px;
-  border-radius: 15%;
-  margin-top: 25%;
-  margin-left: 25%;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-top: 35%;
+  margin-left: 20%;
 }

@@ -17,10 +17,11 @@
 
    }  #loginTitle{
       font-size: 50px;
-      background: linear-gradient(#9AE7E8,#36ebe8, #3077ec);
+      text-align: center;
+      background: linear-gradient( #36ebe8, #3067ec, #36ebe8);
       -webkit-background-clip: text;
       color: transparent; 
-      margin-left: 20%;
+      margin-left: 0%;
        
   }
 
