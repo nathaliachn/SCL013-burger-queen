@@ -3,13 +3,15 @@ App {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   width: auto;
   height: auto;
-}  .App-menu__type {
+}
+  .App-menu__type {
   display: inline-block;
   border-radius: 5px;
   padding: 8px;
   text-transform: uppercase;
   background-color: #eee;
-}  .App-menu__item {
+}
+  .App-menu__item {
   display: inline-block;
   margin: 4px;
   padding: 10px;
@@ -23,9 +25,11 @@ App {
   font-size: 23px;
   line-height: 22px;
   text-align: center;  
-}  .App-menu__item span {
+}
+  .App-menu__item span {
   display: block;
-}  .App-list {
+} 
+ .App-list {
   padding: 10px;
   background:#E5E5E5;
 }
@@ -33,6 +37,7 @@ App {
   padding: 6px 0;
   font-size: 25px;
 }
+
 .App-list__item {
   display: flex;
   align-items: center;
@@ -56,7 +61,8 @@ App {
   border-radius: 6px;
   cursor: pointer;
   margin-top: 1%;
-}  .imagenPedido{
+}
+  .imagenPedido{
   width: 220px;
   height: 190px;
   border-radius: 5px;
@@ -96,6 +102,33 @@ App {
   border-radius: 6px;
   cursor: pointer;
   margin-top: 1%;
-}  .App-menu{
+}
+  .App-menu{
   display: inline;
+}
+
+.inputRegistro{
+    padding: 18px 95px;
+    border: 1px solid #ccc;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.buttonEnviarPedido{
+  font-family: 'Actor', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  width: 160px;
+  height: 53px;
+  border: 3px;
+  background: #F89992;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.buttonEnviarPedido:hover {
+  background-color: #9AE7E8;
 }

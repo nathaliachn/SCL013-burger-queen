@@ -1,34 +1,35 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebaseConfig'
 
-export const PedidoCocina = () => {
+export const PedidosListos = () => {
   const [pedidos, setPedidos] = useState([])
   useEffect(() => {
-    const obtenerPedidos = async () => {
+    const obtenerPedidosListos = async () => {
       try {
         const data = await db.collection('pedido')
-        .where('status', '==', 'Pendiente').get()
+        .get()
         console.log(data.docs)
         const arrayData = await data.docs.map
           (doc => ({ id: doc.id, ...doc.data() }))
         console.log(arrayData)
         setPedidos(arrayData)
         
-        const statusPedido = arrayData.filter (arrayData=> arrayData.status === 'Pendiente')
+        const statusPedido = arrayData.filter
+        (arrayData=> arrayData.status === 'Listo')
         setPedidos(statusPedido)
       }
       catch (error) {
         console.log(error)
       }
     }
-    obtenerPedidos()
+    obtenerPedidosListos()
   },
   [])
 
-  const pedidoListo = (id)=>{
+  const pedidoServido = (id)=>{
      try{
        db.collection('pedido').doc(id).update({
-         status:"Listo",
+         status:"Servido",
        })
      }catch (error){
        console.log(error)
@@ -50,10 +51,12 @@ export const PedidoCocina = () => {
               )
             })}
              <br></br>
-            <button className="botonPedidoListo" value= {item.id} onClick={()=> pedidoListo(item.id)}>Pedido Listo</button>
+            <button className="botonPedidoListo"
+            value= {item.id} onClick={()=> pedidoServido(item.id)}>
+                Pedido Servido</button>
 
         </div>
       ))}
     </div>);
 }
-export default PedidoCocina;
+export default PedidosListos;

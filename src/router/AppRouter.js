@@ -8,15 +8,13 @@ import { Login } from '../pages/LoginPage';
 import { VistasMesero } from '../pages/VistaMesero';
 import { VistasCocinero } from '../pages/VistaCocinero';
 import { LoginC } from '../pages/LoginCocina';
+import { PedidosAServir } from '../pages/PedidosAServir'
 
 export const AppRouter = () => {
   return (
     <Router>
-      <div className='btnGroup'>
-          <Link to="/register" className='btnR'>Registrate</Link> 
-      </div>
-      <Switch>
-
+        <Switch>
+        <Route path="/PedidosAServir" component={PedidosAServir} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/selection" component={SelectionPage} />
         <Route path="/register" component={Registro} />
