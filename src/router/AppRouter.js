@@ -13,6 +13,7 @@ export const AppRouter = () => {
   return (
     <Router>
       <div className='btnGroup'>
+          <p id='btnRParagraf'>Estamos muy felices de incorporarte en el equipo!</p>
           <Link to="/register" className='btnR'>Registrate</Link> 
       </div>
       <Switch>

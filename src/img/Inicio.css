@@ -32,13 +32,25 @@
             margin-right: -83px;
             margin-left: 64px;
             }     */
-
-            .btnR{
+            #btnRParagraf{
             color: #F89992;
-            font-size: 200%;
+            font-size: 220%;
             font-weight: bold;
-                
+            margin-right: -50%;
+            margin-top: 58%;
+            letter-spacing: 5px;
             }
+            .btnR{
+                
+            color: #F89992;
+            font-size: 270%;
+            font-weight: lighter;
+            font-family: 'Pacifico', cursive;
+            margin-right: 37%;
+            margin-right: 37%;
+            margin-top: 70%;
+         }
+
     #startTittle{
         display: flex;
         flex-direction: column;
@@ -194,7 +206,9 @@
     height: 20%;
 }
 .imagenFondo{
-    height: 100px   
+    height: 100px; 
+    margin-left: 6%;
+    margin-right: -9%;  
 }
 .fondo{ 
     width: 670px;
