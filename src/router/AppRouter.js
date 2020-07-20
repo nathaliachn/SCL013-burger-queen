@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import { HomePage } from '../pages/HomePage';
-import { ContactPage } from '../pages/ContactPage';
 import { SelectionPage } from '../pages/SelectionPage';
 import { Registro } from '../pages/Auth.jsx'
 import { Login } from '../pages/LoginPage';
@@ -15,7 +14,6 @@ export const AppRouter = () => {
     <Router>
         <Switch>
         <Route path="/PedidosAServir" component={PedidosAServir} />
-        <Route path="/contact" component={ContactPage} />
         <Route path="/selection" component={SelectionPage} />
         <Route path="/register" component={Registro} />
         <Route path="/login" component={Login} />

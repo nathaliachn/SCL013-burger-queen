@@ -13,25 +13,30 @@ App {
 }
   .App-menu__item {
   display: inline-block;
-  margin: 4px;
-  padding: 10px;
+  width:20%;
+  margin: 1px;
+  padding: 4px;
   border-radius: 11px;
   background-color: #F89992;
   cursor: pointer;
-  margin-top: 4%;
-  margin-left: 1%;
+  margin-top: 3%;
+  margin-left: 10%;
   color: white;
   font-style: normal;
+  font-weight: bold;
   font-size: 23px;
-  line-height: 22px;
+  line-height: 32px;
   text-align: center;  
 }
   .App-menu__item span {
   display: block;
 } 
  .App-list {
-  padding: 10px;
+  padding: 44px;
   background:#E5E5E5;
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .App-list__total {
   padding: 6px 0;
@@ -63,27 +68,30 @@ App {
   margin-top: 1%;
 }
   .imagenPedido{
-  width: 220px;
-  height: 190px;
+  width: 190px;
+  height: 170px;
   border-radius: 5px;
   vertical-align: middle;
+  margin-bottom: 10%;
+  margin-top: 5%;
 }
 .buttonSelection{
   font-family: 'Actor', sans-serif;
-  font-size: 29px;
+  font-size: 25px;
   font-weight: bolder;
   letter-spacing: 5px;
   text-align: center;
   color: white;
-  width: 370px;
-  height: 65px;
+  width: 293px;
+  height: 57px;
   border: 3px;
   background: #F89992;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   cursor: pointer;
-  margin-top: 1%;
-  margin-left: 1%;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
 }
 .buttonSelection:hover {
   background-color: #9AE7E8;
@@ -110,7 +118,7 @@ App {
 .inputRegistro{
     padding: 18px 95px;
     border: 1px solid #ccc;
-    margin-left: 1%;
+    margin-left: 12%;
     font-size: 20px;
 }
 
