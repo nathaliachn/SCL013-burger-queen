@@ -4,6 +4,7 @@ import { BtnCronometro } from '../componentes/botonCronometro'
 import { PedidoCocina } from '../componentes/PedidoCocina'
 import { Link } from 'react-router-dom';
 import { auth } from "../firebaseConfig";
+import '../img/cocina.css'
 
 export const VistasCocinero = () => {
 
@@ -67,11 +68,9 @@ export const VistasCocinero = () => {
 
 
   return (
-    <div className="main-section">
-      <div className="clock-holder">
-        <div className="stopwatch">
+    <div>      
           <Link to='/'>
-            <button onClick={cerrarSesion}>Cerrar Sesión</button>
+            <button className="cerrarSesion" onClick={cerrarSesion}>Cerrar Sesión</button>
           </Link>
           <PedidoCocina />
           <Cronometro time={time} />
@@ -81,7 +80,5 @@ export const VistasCocinero = () => {
             stop={stop}
             start={start} />
         </div>
-      </div>
-    </div>
   );
 }

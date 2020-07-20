@@ -1,31 +1,61 @@
-.receivedOrders {
-    background-color: #f18f01;
+.pedidosEnCocina{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 11px;
+    background-color: #eee;
+    color:  black;
+    font-style: normal;
+    font-size: 23px;
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+}
+.cerrarSesion{
+    font-family: 'Actor', sans-serif;
+    font-size: 29px;
+    font-weight: bolder;
+    color: white;
+    width: 370px;
+    height: 65px;
+    border: 3px;
+    background: #F89992;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 78%;
+}
+    
+.botonPedidoListo{
+   font-family: 'Actor', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: whitesmoke;
+  width: 160px;
+  height: 53px;
+  border: 3px;
+  background: #F89992;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1%;
 }
 
-.readyOrders {
-    background-color: #2a2d34;
-}
-
-.containersOrders {
-    width: 35%;
-    margin: 2em 2em;
-    height: 700px;
-}
-
-.orderCardsDiv {
-    height: 650px;
-    overflow-y: scroll;
-    padding: 0 1em 1em 1em;
-    border-radius: 10px;
-}
-
-.buttonsModal {
-    display: flex;
-    justify-content: space-around;
-}
-
-.titleContent {
-    padding-bottom: 0.5em;
-    color: #17bebb;
-    font-weight: 700;
+.botonAtras{
+  font-family: 'Actor', sans-serif;
+  font-size: 29px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+  width: 370px;
+  height: 65px;
+  border: 3px;
+  background: #F89992;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1%;
+  margin-left: 59%;
 }

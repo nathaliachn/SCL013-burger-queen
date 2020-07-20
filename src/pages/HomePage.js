@@ -7,6 +7,10 @@ import theCakeHouse from '../img/theCakeHouse.png'
 export const HomePage = () => {
   return (
     <Fragment>
+      <div className='btnGroup'>
+          <p id='btnRParagraf'>Estamos muy felices de incorporarte en el equipo!</p>
+          <Link to="/register" className='btnR'>Registrate</Link> 
+      </div>
       <div id='startBackground'>
         <div className="imagenFondo">
           <img className="fondo" alt="" src={theCakeHouse} />

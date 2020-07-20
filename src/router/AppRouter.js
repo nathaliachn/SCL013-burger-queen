@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link, } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import { HomePage } from '../pages/HomePage';
 import { ContactPage } from '../pages/ContactPage';
 import { SelectionPage } from '../pages/SelectionPage';
@@ -8,16 +8,13 @@ import { Login } from '../pages/LoginPage';
 import { VistasMesero } from '../pages/VistaMesero';
 import { VistasCocinero } from '../pages/VistaCocinero';
 import { LoginC } from '../pages/LoginCocina';
+import { PedidosAServir } from '../pages/PedidosAServir'
 
 export const AppRouter = () => {
   return (
     <Router>
-      <div className='btnGroup'>
-          <p id='btnRParagraf'>Estamos muy felices de incorporarte en el equipo!</p>
-          <Link to="/register" className='btnR'>Registrate</Link> 
-      </div>
-      <Switch>
-
+        <Switch>
+        <Route path="/PedidosAServir" component={PedidosAServir} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/selection" component={SelectionPage} />
         <Route path="/register" component={Registro} />
